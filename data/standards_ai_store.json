@@ -1,0 +1,1910 @@
+{
+  "users": [
+    {
+      "id": "usr-admin-1",
+      "name": "Chief Admin Officer",
+      "email": "admin@example.com",
+      "role": "ADMIN",
+      "department": "Bureau of Standards & IT Operations",
+      "created_at": "2026-09-17T01:29:48.761Z"
+    },
+    {
+      "id": "usr-officer-1",
+      "name": "Procurement Officer Sharma",
+      "email": "officer@example.com",
+      "role": "PROCUREMENT_OFFICER",
+      "department": "Central Public Procurement Division",
+      "created_at": "2026-09-17T01:29:48.761Z"
+    }
+  ],
+  "standards": [
+    {
+      "id": "std-led-001",
+      "is_number": "DEMO-IS-10322-LED",
+      "title": "Sample Standard for LED Outdoor and Roadway Lighting Luminaires",
+      "category": "Lighting",
+      "scope": "This sample demo standard specifies general, safety, performance, and environmental requirements for outdoor LED luminaires intended for street, highway, roadway, and public perimeter illumination.",
+      "description": "Covers photometric performance, thermal management, IP65/IP66 ingress protection, surge protection up to 10kV, operating temperature ranges (-10°C to +50°C), and corrosion resistance for exterior municipal lighting fixtures.",
+      "keywords": [
+        "LED",
+        "street lighting",
+        "roadway",
+        "outdoor lighting",
+        "weather resistant",
+        "IP66",
+        "surge protection",
+        "luminaire",
+        "energy efficiency"
+      ],
+      "status": "ACTIVE",
+      "revision": "2023 (R1)",
+      "source_reference": "BIS Demo Repository / Section ETD-24",
+      "document_name": "DEMO_IS_10322_LED_Roadway.pdf",
+      "is_demo": true,
+      "created_at": "2023-01-15T00:00:00.000Z",
+      "updated_at": "2024-02-10T00:00:00.000Z",
+      "chunks_count": 3
+    },
+    {
+      "id": "std-sol-002",
+      "is_number": "DEMO-IS-14286-SOL",
+      "title": "Sample Standard for Crystalline Silicon Terrestrial Photovoltaic (PV) Solar Modules",
+      "category": "Solar Equipment",
+      "scope": "Specifies design qualification and type approval of terrestrial crystalline silicon photovoltaic modules suitable for prolonged outdoor operation in tropical and general climates.",
+      "description": "Requirements for mechanical load resistance (5400 Pa snow/wind), hail impact testing, UV weathering exposure, wet leakage current insulation, and hot-spot endurance testing for public solar installations.",
+      "keywords": [
+        "solar",
+        "photovoltaic",
+        "PV module",
+        "renewable energy",
+        "solar panel",
+        "silicon cells",
+        "weatherproof",
+        "outdoor generation"
+      ],
+      "status": "ACTIVE",
+      "revision": "2022",
+      "source_reference": "BIS Demo Repository / Solar Energy Division",
+      "document_name": "DEMO_IS_14286_Solar_PV_Modules.pdf",
+      "is_demo": true,
+      "created_at": "2022-06-20T00:00:00.000Z",
+      "updated_at": "2023-11-15T00:00:00.000Z",
+      "chunks_count": 2
+    },
+    {
+      "id": "std-elec-003",
+      "is_number": "DEMO-IS-694-CAB",
+      "title": "Sample Standard for PVC Insulated Low-Voltage Electrical Cables for Heavy Industrial & Building Wiring",
+      "category": "Electrical Equipment",
+      "scope": "Covers single-core and multi-core unsheathed and sheathed copper/aluminum electrical wires and cables for working voltages up to and including 1100V AC.",
+      "description": "Specifications for oxygen index, flame retardancy (FRLS), insulation resistance, voltage withstand tests, high temperature conductor rating (70°C to 85°C), and copper purity for procurement specifications.",
+      "keywords": [
+        "cable",
+        "wire",
+        "PVC insulation",
+        "FRLS",
+        "copper conductor",
+        "electrical safety",
+        "1100V",
+        "power distribution"
+      ],
+      "status": "ACTIVE",
+      "revision": "2021 (R2)",
+      "source_reference": "BIS Demo Repository / Conductors and Cables Bureau",
+      "document_name": "DEMO_IS_694_Cables_Wiring.pdf",
+      "is_demo": true,
+      "created_at": "2021-04-10T00:00:00.000Z",
+      "updated_at": "2023-08-12T00:00:00.000Z",
+      "chunks_count": 2
+    },
+    {
+      "id": "std-elec-004",
+      "is_number": "DEMO-IS-8828-MCB",
+      "title": "Sample Standard for Miniature Circuit Breakers (MCBs) and Residual Current Devices for Overcurrent Protection",
+      "category": "Electrical Equipment",
+      "scope": "Requirements for AC air-break circuit-breakers for operation at 50Hz, having a rated voltage not exceeding 440V (between phases) and a rated current not exceeding 125A.",
+      "description": "Defines breaking capacity (10kA), tripping characteristics (B, C, D curves), short-circuit withstand capabilities, dielectric properties, and mechanical endurance for consumer units and distribution boards.",
+      "keywords": [
+        "MCB",
+        "circuit breaker",
+        "switchgear",
+        "short circuit protection",
+        "overload",
+        "electrical safety",
+        "distribution board"
+      ],
+      "status": "ACTIVE",
+      "revision": "2023",
+      "source_reference": "BIS Demo Repository / Switchgear Division",
+      "document_name": "DEMO_IS_8828_Circuit_Breakers.pdf",
+      "is_demo": true,
+      "created_at": "2020-09-18T00:00:00.000Z",
+      "updated_at": "2023-12-01T00:00:00.000Z",
+      "chunks_count": 1
+    },
+    {
+      "id": "std-con-005",
+      "is_number": "DEMO-IS-456-CON",
+      "title": "Sample Code of Practice for Plain and Reinforced Concrete in Structural Works",
+      "category": "Construction",
+      "scope": "Deals with the general structural use of plain and reinforced concrete in buildings, bridges, foundations, and public infrastructure works.",
+      "description": "Governs concrete mix designs (M20 to M60+), curing periods, water-cement ratios, durability criteria against chemical exposure (sulfate, chloride, sea coast), rebar cover, and tensile reinforcement design.",
+      "keywords": [
+        "concrete",
+        "cement",
+        "civil works",
+        "structural design",
+        "reinforcement",
+        "building construction",
+        "durability",
+        "foundations"
+      ],
+      "status": "ACTIVE",
+      "revision": "2020 (Fourth Revision)",
+      "source_reference": "BIS Demo Repository / Civil Engineering Committee",
+      "document_name": "DEMO_IS_456_Concrete_Practice.pdf",
+      "is_demo": true,
+      "created_at": "2020-03-11T00:00:00.000Z",
+      "updated_at": "2024-01-05T00:00:00.000Z",
+      "chunks_count": 1
+    },
+    {
+      "id": "std-con-006",
+      "is_number": "DEMO-IS-1786-TMT",
+      "title": "Sample Standard for High Strength Deformed Steel Bars and Wires for Concrete Reinforcement (TMT Bars)",
+      "category": "Construction",
+      "scope": "Requirements for thermo-mechanically treated (TMT) deformed steel bars and wires for use as reinforcement in concrete structures.",
+      "description": "Specifies Fe 500, Fe 500D, and Fe 550D grades with superior ductility, bendability, yield strength, phosphorus/sulfur limits (<0.040%), and seismic resistance performance.",
+      "keywords": [
+        "TMT bars",
+        "steel reinforcement",
+        "deformed bars",
+        "Fe 500D",
+        "civil construction",
+        "structural steel",
+        "rebar",
+        "tensile strength"
+      ],
+      "status": "ACTIVE",
+      "revision": "2022",
+      "source_reference": "BIS Demo Repository / Metallurgical Engineering",
+      "document_name": "DEMO_IS_1786_TMT_Steel_Bars.pdf",
+      "is_demo": true,
+      "created_at": "2021-08-14T00:00:00.000Z",
+      "updated_at": "2023-05-19T00:00:00.000Z",
+      "chunks_count": 1
+    },
+    {
+      "id": "std-wat-007",
+      "is_number": "DEMO-IS-4985-PVC",
+      "title": "Sample Standard for Unplasticized PVC (uPVC) Pipes for Potable Water Supplies and Drainage",
+      "category": "Water Equipment",
+      "scope": "Covers requirements for plain and socket-ended uPVC pipes intended for wholesome cold drinking water distribution and agricultural irrigation under pressure.",
+      "description": "Dimensional tolerances, working pressure classes (2.5 kgf/cm² to 10 kgf/cm²), hydrostatic burst testing, toxicity limits for potable conveyance (heavy metal lead leaching < 0.05 mg/L), and impact resistance.",
+      "keywords": [
+        "uPVC pipe",
+        "water supply",
+        "potable water",
+        "plumbing",
+        "pressure pipe",
+        "drainage",
+        "chlorination",
+        "irrigation"
+      ],
+      "status": "ACTIVE",
+      "revision": "2021",
+      "source_reference": "BIS Demo Repository / Water Resources Division",
+      "document_name": "DEMO_IS_4985_uPVC_Water_Pipes.pdf",
+      "is_demo": true,
+      "created_at": "2021-02-17T00:00:00.000Z",
+      "updated_at": "2023-04-12T00:00:00.000Z",
+      "chunks_count": 1
+    },
+    {
+      "id": "std-wat-008",
+      "is_number": "DEMO-IS-10500-DRK",
+      "title": "Sample Standard for Drinking Water Quality Parameters and Permissible Contaminant Limits",
+      "category": "Water Equipment",
+      "scope": "Prescribes the requirements and methods of sampling and test for drinking water suitable for domestic human consumption and institutional supplies.",
+      "description": "Physical, chemical, microbiological limits (pH 6.5-8.5, TDS < 500 mg/l, turbidity < 1 NTU, zero E. coli, heavy metal maximum limits, and fluoride thresholds) for municipal purification works and reverse osmosis equipment.",
+      "keywords": [
+        "drinking water",
+        "potable water",
+        "water quality",
+        "TDS",
+        "turbidity",
+        "pH",
+        "microbiological safety",
+        "purification",
+        "water testing"
+      ],
+      "status": "ACTIVE",
+      "revision": "2022",
+      "source_reference": "BIS Demo Repository / Public Health Engineering",
+      "document_name": "DEMO_IS_10500_Drinking_Water.pdf",
+      "is_demo": true,
+      "created_at": "2020-05-14T00:00:00.000Z",
+      "updated_at": "2023-09-22T00:00:00.000Z",
+      "chunks_count": 1
+    },
+    {
+      "id": "std-ppe-009",
+      "is_number": "DEMO-IS-2925-HLM",
+      "title": "Sample Standard for Industrial Safety Helmets for Head Protection against Impact and Penetration",
+      "category": "PPE",
+      "scope": "Specifies physical and performance requirements, methods of test, and marking requirements for industrial safety helmets.",
+      "description": "Shock absorption testing (transmitted force under 5.0 kN), penetration resistance against 3kg pointed striker, electrical insulation rating (up to 2000V AC), flame resistance, and adjustable non-conductive cradle straps for construction and factory personnel.",
+      "keywords": [
+        "safety helmet",
+        "hard hat",
+        "PPE",
+        "head protection",
+        "industrial safety",
+        "impact resistance",
+        "electrical insulation",
+        "construction PPE"
+      ],
+      "status": "ACTIVE",
+      "revision": "2021",
+      "source_reference": "BIS Demo Repository / Industrial Safety Committee",
+      "document_name": "DEMO_IS_2925_Safety_Helmets.pdf",
+      "is_demo": true,
+      "created_at": "2021-01-08T00:00:00.000Z",
+      "updated_at": "2023-07-30T00:00:00.000Z",
+      "chunks_count": 1
+    },
+    {
+      "id": "std-ppe-010",
+      "is_number": "DEMO-IS-15298-SFT",
+      "title": "Sample Standard for Personal Protective Equipment - Safety Footwear with Steel Toe Cap",
+      "category": "PPE",
+      "scope": "Prescribes basic and additional requirements for safety footwear incorporating protective steel or composite toe-caps.",
+      "description": "200 Joules impact resistance, 15 kN compression strength, antistatic properties, slip resistance on ceramic tile and steel floors, oil and fuel resistance of outsole, and water-repellent grain leather upper construction.",
+      "keywords": [
+        "safety shoes",
+        "protective footwear",
+        "steel toe",
+        "PPE",
+        "slip resistant",
+        "antistatic",
+        "industrial footwear",
+        "oil resistant"
+      ],
+      "status": "ACTIVE",
+      "revision": "2022",
+      "source_reference": "BIS Demo Repository / Occupational Safety Division",
+      "document_name": "DEMO_IS_15298_Safety_Footwear.pdf",
+      "is_demo": true,
+      "created_at": "2020-11-20T00:00:00.000Z",
+      "updated_at": "2023-10-18T00:00:00.000Z",
+      "chunks_count": 1
+    },
+    {
+      "id": "std-fur-011",
+      "is_number": "DEMO-IS-3400-FUR",
+      "title": "Sample Standard for Ergonomic Workstation Desks, Tables, and Office Furniture",
+      "category": "Furniture",
+      "scope": "Specifies dimensional requirements, structural strength, stability, and finish durability for office desks, executive tables, and modular institutional workstations.",
+      "description": "Covers edge-banding adhesion, moisture-resistant pre-laminated engineered particleboard/MDF (Grade 1), powder-coated steel understructure, cable management raceways, and static load endurance (100 kg uniform desk load).",
+      "keywords": [
+        "office furniture",
+        "workstation",
+        "desks",
+        "ergonomics",
+        "modular tables",
+        "powder coated steel",
+        "prelaminated board",
+        "office setup"
+      ],
+      "status": "ACTIVE",
+      "revision": "2023",
+      "source_reference": "BIS Demo Repository / Timber and Furniture Section",
+      "document_name": "DEMO_IS_3400_Office_Furniture.pdf",
+      "is_demo": true,
+      "created_at": "2022-03-15T00:00:00.000Z",
+      "updated_at": "2023-11-04T00:00:00.000Z",
+      "chunks_count": 1
+    },
+    {
+      "id": "std-fur-012",
+      "is_number": "DEMO-IS-17632-CHR",
+      "title": "Sample Standard for Adjustable Ergonomic Office Swivel Chairs and Seating Systems",
+      "category": "Furniture",
+      "scope": "Requirements for adjustable office swivel work chairs including stability, durability, seat height adjustment mechanisms, and backrest angle adjustability.",
+      "description": "Class 4 gas-lift cylinder certification, pneumatic height adjustment (420-540 mm), 5-prong nylon/cast aluminum star base, dual-wheel hooded nylon casters, breathable mesh backrest, and 120,000 cycle durability testing.",
+      "keywords": [
+        "office chair",
+        "ergonomic chair",
+        "swivel chair",
+        "gas lift",
+        "mesh backrest",
+        "lumbar support",
+        "seating furniture"
+      ],
+      "status": "ACTIVE",
+      "revision": "2022",
+      "source_reference": "BIS Demo Repository / Seating Equipment Bureau",
+      "document_name": "DEMO_IS_17632_Office_Chairs.pdf",
+      "is_demo": true,
+      "created_at": "2021-07-29T00:00:00.000Z",
+      "updated_at": "2023-06-11T00:00:00.000Z",
+      "chunks_count": 1
+    },
+    {
+      "id": "std-it-013",
+      "is_number": "DEMO-IS-13252-ITE",
+      "title": "Sample Standard for Information Technology Equipment - Safety and Electrical Characteristics",
+      "category": "IT Equipment",
+      "scope": "Applicable to mains-powered or battery-powered information technology equipment, including computer terminals, servers, laptops, printers, and network routing appliances.",
+      "description": "Electrical shock protection, insulation clearance distances, fire resistance of plastic enclosures (UL94 V-0 or V-1), thermal runaway prevention for lithium batteries, acoustic noise limits, and energy star efficiency ratings.",
+      "keywords": [
+        "IT equipment",
+        "computers",
+        "laptops",
+        "servers",
+        "electrical safety",
+        "power supply",
+        "information technology",
+        "printers",
+        "network equipment"
+      ],
+      "status": "ACTIVE",
+      "revision": "2020",
+      "source_reference": "BIS Demo Repository / Electronics and IT Department",
+      "document_name": "DEMO_IS_13252_IT_Equipment_Safety.pdf",
+      "is_demo": true,
+      "created_at": "2020-02-19T00:00:00.000Z",
+      "updated_at": "2024-02-01T00:00:00.000Z",
+      "chunks_count": 1
+    },
+    {
+      "id": "std-it-014",
+      "is_number": "DEMO-IS-16242-UPS",
+      "title": "Sample Standard for Uninterruptible Power Supply (UPS) Systems for Data Centers & Mission Critical IT",
+      "category": "IT Equipment",
+      "scope": "Requirements for electronic uninterruptible power systems (UPS) designed to supply electrical AC power with low harmonic distortion to sensitive telecommunications and computing systems.",
+      "description": "Online double-conversion topology, true sine wave output (<3% THD on linear loads), bypass synchronization, battery management protocols (VRLA/Lithium), overall efficiency > 94%, and galvanic isolation criteria.",
+      "keywords": [
+        "UPS",
+        "uninterruptible power supply",
+        "power backup",
+        "data center",
+        "double conversion",
+        "battery backup",
+        "voltage regulation"
+      ],
+      "status": "ACTIVE",
+      "revision": "2023",
+      "source_reference": "BIS Demo Repository / Power Electronics Bureau",
+      "document_name": "DEMO_IS_16242_UPS_Systems.pdf",
+      "is_demo": true,
+      "created_at": "2021-12-05T00:00:00.000Z",
+      "updated_at": "2023-09-14T00:00:00.000Z",
+      "chunks_count": 1
+    },
+    {
+      "id": "std-fir-015",
+      "is_number": "DEMO-IS-15683-FIR",
+      "title": "Sample Standard for Portable Fire Extinguishers - Performance, Construction, and Pressure Ratings",
+      "category": "Fire Safety",
+      "scope": "Specifies the requirements for portable fire extinguishers of dry chemical powder (ABC class), carbon dioxide (CO2), clean agent, and water/foam types.",
+      "description": "Burst pressure tests (55 bar), discharge duration (>13 seconds for 6kg extinguisher), fire rating ratings (3A/21B minimum), corrosion resistance of internal epoxy coatings, and dual gauge pressure indicator accuracy.",
+      "keywords": [
+        "fire extinguisher",
+        "fire safety",
+        "ABC powder",
+        "CO2 extinguisher",
+        "fire protection",
+        "emergency equipment",
+        "suppression"
+      ],
+      "status": "ACTIVE",
+      "revision": "2022",
+      "source_reference": "BIS Demo Repository / Fire Fighting Division",
+      "document_name": "DEMO_IS_15683_Fire_Extinguishers.pdf",
+      "is_demo": true,
+      "created_at": "2020-08-11T00:00:00.000Z",
+      "updated_at": "2023-11-28T00:00:00.000Z",
+      "chunks_count": 1
+    },
+    {
+      "id": "std-med-016",
+      "is_number": "DEMO-IS-13450-MED",
+      "title": "Sample Standard for Medical Electrical Equipment - General Requirements for Basic Safety and Essential Performance",
+      "category": "Medical Equipment",
+      "scope": "Applies to basic safety and essential performance of medical electrical equipment used in hospitals, intensive care units, and clinical healthcare environments.",
+      "description": "Patient leakage current thresholds (< 100 µA for BF/CF patient applied parts), defibrillation-proof protection, electromagnetic compatibility (EMC IEC 60601-1-2), dual backup alarms, and biocompatibility of patient-contacting materials.",
+      "keywords": [
+        "medical equipment",
+        "patient safety",
+        "hospital equipment",
+        "electrical safety",
+        "ICU monitors",
+        "biocompatibility",
+        "healthcare"
+      ],
+      "status": "ACTIVE",
+      "revision": "2021",
+      "source_reference": "BIS Demo Repository / Medical Equipment Bureau",
+      "document_name": "DEMO_IS_13450_Medical_Electrical_Safety.pdf",
+      "is_demo": true,
+      "created_at": "2021-05-18T00:00:00.000Z",
+      "updated_at": "2023-10-09T00:00:00.000Z",
+      "chunks_count": 1
+    },
+    {
+      "id": "std-mec-017",
+      "is_number": "DEMO-IS-1520-PMP",
+      "title": "Sample Standard for Horizontal Centrifugal Water Pumps for Clear, Cold Potable Water Irrigation and Municipal Distribution",
+      "category": "Mechanical Equipment",
+      "scope": "Requirements for single-stage centrifugal pumps for pumping clean water without abrasive suspended solids for municipal waterworks and lift irrigation.",
+      "description": "Pump head, discharge capacity, overall energy efficiency (minimum 72%), cavitation NPSH characteristics, cast iron casing (Grade FG 200), stainless steel impeller (AISI 304), and mechanical seal reliability.",
+      "keywords": [
+        "water pump",
+        "centrifugal pump",
+        "pumping station",
+        "irrigation pump",
+        "municipal water",
+        "hydraulic efficiency",
+        "impeller"
+      ],
+      "status": "ACTIVE",
+      "revision": "2022",
+      "source_reference": "BIS Demo Repository / Fluid Power Committee",
+      "document_name": "DEMO_IS_1520_Centrifugal_Pumps.pdf",
+      "is_demo": true,
+      "created_at": "2020-10-05T00:00:00.000Z",
+      "updated_at": "2023-08-25T00:00:00.000Z",
+      "chunks_count": 1
+    },
+    {
+      "id": "std-lab-018",
+      "is_number": "DEMO-IS-6009-LAB",
+      "title": "Sample Standard for Laboratory Fume Hoods and Chemical Containment Ventilation Cabinets",
+      "category": "Laboratory Equipment",
+      "scope": "Specifies safety, airflow velocity, face containment, and chemical resistance requirements for ducted laboratory fume extraction hoods.",
+      "description": "Face velocity maintenance (0.4 m/s to 0.6 m/s at nominal sash opening), containment testing (SF6 tracer gas protocol), epoxy resin chemical-resistant worktops, spark-proof explosion-rated exhaust blowers, and acoustic noise limits (<60 dBA).",
+      "keywords": [
+        "fume hood",
+        "laboratory equipment",
+        "chemical safety",
+        "exhaust cabinet",
+        "containment",
+        "ventilation",
+        "lab furniture"
+      ],
+      "status": "ACTIVE",
+      "revision": "2023",
+      "source_reference": "BIS Demo Repository / Chemical Equipment Bureau",
+      "document_name": "DEMO_IS_6009_Lab_Fume_Hoods.pdf",
+      "is_demo": true,
+      "created_at": "2022-04-12T00:00:00.000Z",
+      "updated_at": "2023-12-19T00:00:00.000Z",
+      "chunks_count": 1
+    }
+  ],
+  "chunks": [
+    {
+      "id": "chk-led-001-1",
+      "standard_id": "std-led-001",
+      "chunk_index": 0,
+      "page_number": 2,
+      "section": "1. Scope and Application",
+      "chunk_text": "Clause 1.1: This specification applies to light emitting diode (LED) luminaires designated for installation on public roadways, highways, arterial roads, and exterior municipal infrastructure where continuous exposure to ambient weather conditions, humidity, and atmospheric dust is encountered. Luminaire enclosures shall be rated not less than IP65 for optical and driver compartments, and IP66 for high-exposure roadway poles."
+    },
+    {
+      "id": "chk-led-001-2",
+      "standard_id": "std-led-001",
+      "chunk_index": 1,
+      "page_number": 4,
+      "section": "4. Electrical and Safety Characteristics",
+      "chunk_text": "Clause 4.3: Electrical safety and insulation resistance: Luminaires shall operate reliably at nominal input AC voltage 230V ± 10%, 50Hz, with total harmonic distortion (THD) under 10% and power factor >= 0.95. Integrated surge protection devices (SPD) shall withstand minimum 10kV / 5kA lightning and transient switching impulses to safeguard electronic driver circuits."
+    },
+    {
+      "id": "chk-led-001-3",
+      "standard_id": "std-led-001",
+      "chunk_index": 2,
+      "page_number": 7,
+      "section": "7. Mechanical and Environmental Durability",
+      "chunk_text": "Clause 7.2: Thermal Dissipation and Ingress: Die-cast aluminum housing (LM6 or equivalent) with powder-coated anti-corrosive finish. Heat sinks must maintain LED junction temperature (Tj) below 85°C at maximum rated ambient temperature of 50°C to preserve luminous efficacy over rated life (L70 > 50,000 burning hours)."
+    },
+    {
+      "id": "chk-sol-002-1",
+      "standard_id": "std-sol-002",
+      "chunk_index": 0,
+      "page_number": 3,
+      "section": "3. Technical Qualification Requirements",
+      "chunk_text": "Clause 3.1: All crystalline silicon modules for government grid-interactive and rooftop deployment must demonstrate compliance with accelerated damp heat testing (85°C / 85% RH for 1000 hours) with degradation of peak power not exceeding 5% of rated standard test condition (STC) wattage."
+    },
+    {
+      "id": "chk-sol-002-2",
+      "standard_id": "std-sol-002",
+      "chunk_index": 1,
+      "page_number": 6,
+      "section": "6. Mechanical Load and Ingress",
+      "chunk_text": "Clause 6.4: The front glass shall be tempered high-transmission solar glass with minimum 3.2mm thickness, capable of withstanding dynamic wind loads up to 2400 Pa and heavy snow/static pressure loads up to 5400 Pa without micro-cracking or frame delamination."
+    },
+    {
+      "id": "chk-elec-003-1",
+      "standard_id": "std-elec-003",
+      "chunk_index": 0,
+      "page_number": 1,
+      "section": "2. Conductor Composition & Purity",
+      "chunk_text": "Clause 2.1: Conductors shall consist of annealed electrolytic grade plain copper wire with minimum electrical conductivity of 99.97% IACS. Solid or stranded conductors shall conform strictly to class 1, class 2, or flexible class 5 dimensional tolerances."
+    },
+    {
+      "id": "chk-elec-003-2",
+      "standard_id": "std-elec-003",
+      "chunk_index": 1,
+      "page_number": 5,
+      "section": "5. Flame Retardant Low Smoke (FRLS) Testing",
+      "chunk_text": "Clause 5.3: For critical infrastructure and public building applications, the outer PVC sheath must exhibit Flame Retardant Low Smoke characteristics: Oxygen Index >= 29%, Temperature Index >= 250°C, and acid gas emission not exceeding 20% by weight during combustion."
+    },
+    {
+      "id": "chk-elec-004-1",
+      "standard_id": "std-elec-004",
+      "chunk_index": 0,
+      "page_number": 3,
+      "section": "3. Rated Breaking Capacity and Tripping Curves",
+      "chunk_text": "Clause 3.2: Miniature circuit breakers for commercial and industrial procurement shall possess a minimum short-circuit breaking capacity rating (Icn) of 10,000A (10kA) at 240/415V AC. Type C tripping curve (instantaneous tripping between 5 In and 10 In) is mandated for general inductive loads."
+    },
+    {
+      "id": "chk-con-005-1",
+      "standard_id": "std-con-005",
+      "chunk_index": 0,
+      "page_number": 14,
+      "section": "8. Concrete Durability and Environmental Exposure",
+      "chunk_text": "Clause 8.2: For structures exposed to severe outdoor atmospheric conditions or coastal marine environments, minimum cementitious content of 320 kg/m³ and maximum free water-cement ratio of 0.45 is mandated, with minimum concrete grade of M30 and nominal cover to reinforcement of not less than 45mm."
+    },
+    {
+      "id": "chk-con-006-1",
+      "standard_id": "std-con-006",
+      "chunk_index": 0,
+      "page_number": 4,
+      "section": "4. Mechanical Properties and Ductility",
+      "chunk_text": "Clause 4.1: Fe 500D grade rebar shall exhibit minimum proof stress (0.2% yield strength) of 500 MPa, minimum tensile strength of 565 MPa (ratio TS/YS >= 1.10), and elongation at break of not less than 16.0% to withstand seismic load reversals without brittle fracture."
+    },
+    {
+      "id": "chk-wat-007-1",
+      "standard_id": "std-wat-007",
+      "chunk_index": 0,
+      "page_number": 3,
+      "section": "3. Toxicological and Potability Criteria",
+      "chunk_text": "Clause 3.4: Materials utilized in manufacturing pipes for drinking water distribution must be certified food-grade uPVC, free from toxic lead, cadmium, and arsenic stabilizers. Leachable lead content shall not exceed 0.05 mg/litre when tested in accordance with hydrostatic extraction protocols."
+    },
+    {
+      "id": "chk-wat-008-1",
+      "standard_id": "std-wat-008",
+      "chunk_index": 0,
+      "page_number": 2,
+      "section": "Table 1: Essential Physical and Chemical Characteristics",
+      "chunk_text": "Acceptable limits for public distribution: Total Dissolved Solids (TDS) maximum 500 mg/l (permissible up to 2000 mg/l in absence of alternate source); Turbidity maximum 1.0 NTU; Total Hardness (as CaCO3) maximum 200 mg/l; Fluoride maximum 1.0 mg/l; Free residual chlorine 0.2 to 1.0 mg/l at delivery points."
+    },
+    {
+      "id": "chk-ppe-009-1",
+      "standard_id": "std-ppe-009",
+      "chunk_index": 0,
+      "page_number": 3,
+      "section": "4. Impact Shock Absorption and Penetration Criteria",
+      "chunk_text": "Clause 4.2: When subjected to drop impact of 5.0 kg steel striker from 1.0 metre height, the maximum force transmitted to the headform shall not exceed 5.0 kN. The outer shell shall be manufactured from high-density polyethylene (HDPE) or ABS polymer stabilized against ultraviolet degradation."
+    },
+    {
+      "id": "chk-ppe-010-1",
+      "standard_id": "std-ppe-010",
+      "chunk_index": 0,
+      "page_number": 4,
+      "section": "5. Impact and Compression Requirements",
+      "chunk_text": "Clause 5.1: The integrated protective toe-cap must provide minimum clearance of 14mm for size 8 footwear when subjected to an impact energy of 200 ± 4 Joules, and when subjected to a compressive static load of 15 ± 0.1 kN."
+    },
+    {
+      "id": "chk-fur-011-1",
+      "standard_id": "std-fur-011",
+      "chunk_index": 0,
+      "page_number": 2,
+      "section": "2. Dimensional and Ergonomic Specifications",
+      "chunk_text": "Clause 2.3: Work surface height shall be 740 ± 10 mm from finished floor level. Minimum knee clearance depth of 450 mm at knee level and 600 mm at foot level must be preserved. Worktop substrate shall be minimum 25mm thick E1 grade exterior prelaminated particle board with 2mm PVC hot-melt edge band."
+    },
+    {
+      "id": "chk-fur-012-1",
+      "standard_id": "std-fur-012",
+      "chunk_index": 0,
+      "page_number": 3,
+      "section": "4. Structural Cycle Testing and Gas Lift Verification",
+      "chunk_text": "Clause 4.1: Pneumatic gas lift cylinders must conform to DIN 4550 Class 4 or BIFMA X5.1 standards. The chair base must withstand a static compressive proof load of 11.1 kN (1130 kgf) without structural fracture or permanent plastic deformation."
+    },
+    {
+      "id": "chk-it-013-1",
+      "standard_id": "std-it-013",
+      "chunk_index": 0,
+      "page_number": 5,
+      "section": "4. Fire Protection and Plastic Enclosure Flammability",
+      "chunk_text": "Clause 4.3: External polymeric enclosures and chassis holding internal power supplies and motherboards shall possess a flammability classification of V-0 or V-1. Touch temperature of user-accessible metal panels must not exceed 45°C during continuous 100% operational compute load."
+    },
+    {
+      "id": "chk-it-014-1",
+      "standard_id": "std-it-014",
+      "chunk_index": 0,
+      "page_number": 4,
+      "section": "3. Output Waveform and Dynamic Response",
+      "chunk_text": "Clause 3.2: Static online double conversion UPS systems must produce pure sine wave output voltage with total harmonic distortion (THDv) not exceeding 3% for linear loads and 5% for non-linear computer power supply loads. Transfer time between mains and inverter mode shall be strictly 0 milliseconds."
+    },
+    {
+      "id": "chk-fir-015-1",
+      "standard_id": "std-fir-015",
+      "chunk_index": 0,
+      "page_number": 2,
+      "section": "3. Cylinder Burst Strength and Pressure Rating",
+      "chunk_text": "Clause 3.1: Stored pressure extinguisher cylinders shall be fabricated from deep-drawn mild steel or seamless aluminum capable of passing hydraulic test pressure at 30 kgf/cm² (3.0 MPa) for 2 minutes without leakage. The external surface shall be electrostatically powder coated Signal Red (RAL 3000)."
+    },
+    {
+      "id": "chk-med-016-1",
+      "standard_id": "std-med-016",
+      "chunk_index": 0,
+      "page_number": 7,
+      "section": "8. Protection Against Electrical Hazards to Patients",
+      "chunk_text": "Clause 8.7: Patient leakage current under single fault conditions for Type CF floating applied parts (e.g. ECG leads, invasive pressure sensors) shall strictly not exceed 50 microamperes (µA) to prevent micro-shock ventricular fibrillation hazards."
+    },
+    {
+      "id": "chk-mec-017-1",
+      "standard_id": "std-mec-017",
+      "chunk_index": 0,
+      "page_number": 3,
+      "section": "4. Hydraulic Performance and Energy Efficiency",
+      "chunk_text": "Clause 4.2: Pumps supplied under public tenders must achieve BEE 4-star or 5-star minimum overall efficiency rating. Hydrostatic pressure testing of pump casing shall be performed at 1.5 times the maximum shut-off head or 2 times the duty head, whichever is higher, for not less than 5 minutes."
+    },
+    {
+      "id": "chk-lab-018-1",
+      "standard_id": "std-lab-018",
+      "chunk_index": 0,
+      "page_number": 4,
+      "section": "3. Airflow Face Velocity and Containment Testing",
+      "chunk_text": "Clause 3.1: The average face velocity across the sash opening at operational sash height (500 mm) shall be maintained between 0.45 m/s and 0.55 m/s with no individual test point deviating by more than ± 15% from the mean. Aerodynamic bypass louvers must eliminate reverse eddies."
+    }
+  ],
+  "search_history": [
+    {
+      "id": "srch-1789609730731",
+      "user_id": "guest-user",
+      "user_email": "Guest User",
+      "query": "Supply of 500 units of 50W outdoor LED street luminaires with IP66 ingress protection and 10kV surge suppressor for smart highway project.",
+      "extracted_requirements": {
+        "product": "50W outdoor LED street luminaires",
+        "category": "Lighting",
+        "material": "Not specified",
+        "application": "Smart highway project",
+        "environment": "Outdoor",
+        "quantity": "500 units",
+        "dimensions": "Standard",
+        "power": "50W",
+        "performance_requirements": [],
+        "safety_requirements": [
+          "surge protection 10kV"
+        ],
+        "technical_specifications": [
+          "IP66 ingress protection"
+        ],
+        "certifications": [],
+        "other_constraints": [],
+        "raw_input": "Supply of 500 units of 50W outdoor LED street luminaires with IP66 ingress protection and 10kV surge suppressor for smart highway project."
+      },
+      "recommendations_count": 10,
+      "top_standard": "DEMO-IS-10322-LED",
+      "top_score": 86,
+      "processing_time_ms": 4883,
+      "ai_mode": "AI",
+      "created_at": "2026-09-17T01:48:54.216Z"
+    },
+    {
+      "id": "srch-1789609725147",
+      "user_id": "guest-user",
+      "user_email": "Guest User",
+      "query": "Supply of 500 units of 50W outdoor LED street luminaires with IP66 ingress protection and 10kV surge suppressor for smart highway project.",
+      "extracted_requirements": {
+        "product": "50W outdoor LED street luminaires",
+        "category": "Lighting",
+        "material": "Not specified",
+        "application": "Smart highway project",
+        "environment": "Outdoor",
+        "quantity": "500 units",
+        "dimensions": "Standard",
+        "power": "50W",
+        "performance_requirements": [],
+        "safety_requirements": [
+          "surge protection 10kV"
+        ],
+        "technical_specifications": [
+          "IP66 ingress protection"
+        ],
+        "certifications": [],
+        "other_constraints": [],
+        "raw_input": "Supply of 500 units of 50W outdoor LED street luminaires with IP66 ingress protection and 10kV surge suppressor for smart highway project."
+      },
+      "recommendations_count": 10,
+      "top_standard": "DEMO-IS-10322-LED",
+      "top_score": 86,
+      "processing_time_ms": 3220,
+      "ai_mode": "AI",
+      "created_at": "2026-09-17T01:48:46.783Z"
+    },
+    {
+      "id": "srch-1789609669177",
+      "user_id": "guest-user",
+      "user_email": "Guest User",
+      "query": "Supply of 500 units of 50W outdoor LED street luminaires with IP66 ingress protection and 10kV surge suppressor for smart highway project.",
+      "extracted_requirements": {
+        "product": "LED Street Lighting System",
+        "category": "Lighting",
+        "material": "Standard engineering grade material",
+        "application": "Public Roadway and Street Lighting",
+        "environment": "Outdoor / Exterior Environmental Exposure",
+        "quantity": "500 units",
+        "dimensions": "Standard dimensional tolerances",
+        "power": "50W",
+        "performance_requirements": [
+          "Operational reliability under continuous duty cycle"
+        ],
+        "safety_requirements": [
+          "High-voltage surge protection (minimum 10kV)"
+        ],
+        "technical_specifications": [
+          "Ingress protection rating verified",
+          "Nominal rating: 50W"
+        ],
+        "certifications": [
+          "BIS Product Certification / ISI Mark eligibility",
+          "Type Test Report from NABL-accredited laboratory"
+        ],
+        "other_constraints": [
+          "Warranty coverage minimum 3 years",
+          "Manufacturer test certificate with supply"
+        ],
+        "raw_input": "Supply of 500 units of 50W outdoor LED street luminaires with IP66 ingress protection and 10kV surge suppressor for smart highway project."
+      },
+      "recommendations_count": 10,
+      "top_standard": "DEMO-IS-10322-LED",
+      "top_score": 81,
+      "processing_time_ms": 4751,
+      "ai_mode": "FALLBACK",
+      "created_at": "2026-09-17T01:47:51.711Z"
+    },
+    {
+      "id": "srch-1789609312571",
+      "user_id": "guest-user",
+      "user_email": "Guest User",
+      "query": "we require a 200 fire extinguishers suitable for e;ectrical fires  with capacity of 5kg",
+      "extracted_requirements": {
+        "product": "Modular Office Workstation Desks",
+        "category": "Furniture",
+        "material": "Standard engineering grade material",
+        "application": "Emergency Fire Safety and Suppression",
+        "environment": "General Operational Environment",
+        "quantity": "5 kg",
+        "dimensions": "Standard dimensional tolerances",
+        "power": "",
+        "performance_requirements": [
+          "Operational reliability under continuous duty cycle"
+        ],
+        "safety_requirements": [
+          "Flame retardant / low smoke non-hazardous combustion"
+        ],
+        "technical_specifications": [
+          "Compliance with standard manufacturing tolerances and test protocols"
+        ],
+        "certifications": [
+          "BIS Product Certification / ISI Mark eligibility",
+          "Type Test Report from NABL-accredited laboratory"
+        ],
+        "other_constraints": [
+          "Warranty coverage minimum 3 years",
+          "Manufacturer test certificate with supply"
+        ],
+        "raw_input": "we require a 200 fire extinguishers suitable for e;ectrical fires  with capacity of 5kg"
+      },
+      "recommendations_count": 10,
+      "top_standard": "DEMO-IS-3400-FUR",
+      "top_score": 68,
+      "processing_time_ms": 6042,
+      "ai_mode": "FALLBACK",
+      "created_at": "2026-09-17T01:41:55.093Z"
+    },
+    {
+      "id": "srch-1789608674561",
+      "user_id": "guest-user",
+      "user_email": "Guest User",
+      "query": "Supply of 300 units of ergonomic high-back revolving office chairs with pneumatic gas-lift height adjustment and lumbar support.",
+      "extracted_requirements": {
+        "product": "Ergonomic Adjustable Office Swivel Chairs",
+        "category": "Furniture",
+        "material": "Standard engineering grade material",
+        "application": "Commercial / Institutional Office Facilities",
+        "environment": "Indoor / Controlled Environment",
+        "quantity": "300 units",
+        "dimensions": "Standard dimensional tolerances",
+        "power": "",
+        "performance_requirements": [
+          "Operational reliability under continuous duty cycle"
+        ],
+        "safety_requirements": [
+          "Standard industrial electrical and mechanical protection"
+        ],
+        "technical_specifications": [
+          "Compliance with standard manufacturing tolerances and test protocols"
+        ],
+        "certifications": [
+          "BIS Product Certification / ISI Mark eligibility",
+          "Type Test Report from NABL-accredited laboratory"
+        ],
+        "other_constraints": [
+          "Warranty coverage minimum 3 years",
+          "Manufacturer test certificate with supply"
+        ],
+        "raw_input": "Supply of 300 units of ergonomic high-back revolving office chairs with pneumatic gas-lift height adjustment and lumbar support."
+      },
+      "recommendations_count": 10,
+      "top_standard": "DEMO-IS-17632-CHR",
+      "top_score": 84,
+      "processing_time_ms": 5941,
+      "ai_mode": "FALLBACK",
+      "created_at": "2026-09-17T01:31:17.096Z"
+    },
+    {
+      "id": "srch-1789608604377",
+      "user_id": "guest-user",
+      "user_email": "Guest User",
+      "query": "Procurement of 500 units of energy efficient 50W outdoor LED street luminaires for municipal roadway illumination with IP66 ingress protection and surge protection 10kV.",
+      "extracted_requirements": {
+        "product": "LED Street Lighting System",
+        "category": "Lighting",
+        "material": "Standard engineering grade material",
+        "application": "Public Roadway and Street Lighting",
+        "environment": "Outdoor / Exterior Environmental Exposure",
+        "quantity": "500 units",
+        "dimensions": "Standard dimensional tolerances",
+        "power": "50W",
+        "performance_requirements": [
+          "High energy efficiency / BEE compliance"
+        ],
+        "safety_requirements": [
+          "High-voltage surge protection (minimum 10kV)"
+        ],
+        "technical_specifications": [
+          "Ingress protection rating verified",
+          "Nominal rating: 50W"
+        ],
+        "certifications": [
+          "BIS Product Certification / ISI Mark eligibility",
+          "Type Test Report from NABL-accredited laboratory"
+        ],
+        "other_constraints": [
+          "Warranty coverage minimum 3 years",
+          "Manufacturer test certificate with supply"
+        ],
+        "raw_input": "Procurement of 500 units of energy efficient 50W outdoor LED street luminaires for municipal roadway illumination with IP66 ingress protection and surge protection 10kV."
+      },
+      "recommendations_count": 10,
+      "top_standard": "DEMO-IS-10322-LED",
+      "top_score": 81,
+      "processing_time_ms": 17712,
+      "ai_mode": "FALLBACK",
+      "created_at": "2026-09-17T01:30:16.617Z"
+    }
+  ],
+  "recommendations": [
+    {
+      "id": "rec-srch-178-std-led-001",
+      "search_id": "srch-1789609730731",
+      "standard_id": "std-led-001",
+      "standard": {
+        "id": "std-led-001",
+        "is_number": "DEMO-IS-10322-LED",
+        "title": "Sample Standard for LED Outdoor and Roadway Lighting Luminaires",
+        "category": "Lighting",
+        "scope": "This sample demo standard specifies general, safety, performance, and environmental requirements for outdoor LED luminaires intended for street, highway, roadway, and public perimeter illumination.",
+        "description": "Covers photometric performance, thermal management, IP65/IP66 ingress protection, surge protection up to 10kV, operating temperature ranges (-10°C to +50°C), and corrosion resistance for exterior municipal lighting fixtures.",
+        "keywords": [
+          "LED",
+          "street lighting",
+          "roadway",
+          "outdoor lighting",
+          "weather resistant",
+          "IP66",
+          "surge protection",
+          "luminaire",
+          "energy efficiency"
+        ],
+        "status": "ACTIVE",
+        "revision": "2023 (R1)",
+        "source_reference": "BIS Demo Repository / Section ETD-24",
+        "document_name": "DEMO_IS_10322_LED_Roadway.pdf",
+        "is_demo": true,
+        "created_at": "2023-01-15T00:00:00.000Z",
+        "updated_at": "2024-02-10T00:00:00.000Z",
+        "chunks_count": 3
+      },
+      "relevance_score": 86,
+      "confidence_score": 0.87,
+      "applicability_type": "STRONG_CANDIDATE",
+      "reason": "**Procurement Review Notice:** This assessment is for procurement review purposes only and does not constitute a legally binding compliance certification.\n\nThe provided specification for 500 units of 50W outdoor LED street luminaires for a smart highway project falls under the scope of DEMO-IS-10322-LED. This standard applies because Clause 1.1 explicitly covers LED luminaires designated for installation on highways and exterior municipal infrastructure subject to continuous exposure to ambient weather conditions.",
+      "reasons_breakdown": [
+        "Product category and technical description align with 50W outdoor LED street luminaires.",
+        "Industry discipline matches \"Lighting\" standard portfolio.",
+        "Operational deployment matches Smart highway project in scope.",
+        "Technical specifications and performance ratings reflect standard scope.",
+        "Prescribes essential electrical/mechanical safety testing protocols."
+      ],
+      "matched_requirements": [
+        "Product: 50W outdoor LED street luminaires",
+        "Environment: Outdoor",
+        "Application: Smart highway project",
+        "Technical Spec: IP66 ingress protection",
+        "Safety: surge protection 10kV"
+      ],
+      "conditions": [
+        "Applies specifically for outdoor perimeter, street, or public infrastructure deployment.",
+        "Applicability is conditional upon verifying required working ratings with tender schedule requirements."
+      ],
+      "evidence": [
+        {
+          "document": "DEMO_IS_10322_LED_Roadway.pdf",
+          "section": "1. Scope and Application",
+          "page": 2,
+          "snippet": "Clause 1.1: This specification applies to light emitting diode (LED) luminaires designated for installation on public roadways, highways, arterial roads, and exterior municipal infrastructure where continuous exposure to ambient weather conditions, humidity, and atmospheric dust ..."
+        },
+        {
+          "document": "DEMO_IS_10322_LED_Roadway.pdf",
+          "section": "4. Electrical and Safety Characteristics",
+          "page": 4,
+          "snippet": "Clause 4.3: Electrical safety and insulation resistance: Luminaires shall operate reliably at nominal input AC voltage 230V ± 10%, 50Hz, with total harmonic distortion (THD) under 10% and power factor >= 0.95. Integrated surge protection devices (SPD) shall wi..."
+        }
+      ],
+      "score_breakdown": {
+        "semantic": 75,
+        "product": 100,
+        "category": 100,
+        "application": 63,
+        "technical": 100,
+        "safety": 100,
+        "final": 86
+      },
+      "review_status": "PENDING_REVIEW",
+      "created_at": "2026-09-17T01:48:50.742Z"
+    },
+    {
+      "id": "rec-srch-178-std-elec-004",
+      "search_id": "srch-1789609730731",
+      "standard_id": "std-elec-004",
+      "standard": {
+        "id": "std-elec-004",
+        "is_number": "DEMO-IS-8828-MCB",
+        "title": "Sample Standard for Miniature Circuit Breakers (MCBs) and Residual Current Devices for Overcurrent Protection",
+        "category": "Electrical Equipment",
+        "scope": "Requirements for AC air-break circuit-breakers for operation at 50Hz, having a rated voltage not exceeding 440V (between phases) and a rated current not exceeding 125A.",
+        "description": "Defines breaking capacity (10kA), tripping characteristics (B, C, D curves), short-circuit withstand capabilities, dielectric properties, and mechanical endurance for consumer units and distribution boards.",
+        "keywords": [
+          "MCB",
+          "circuit breaker",
+          "switchgear",
+          "short circuit protection",
+          "overload",
+          "electrical safety",
+          "distribution board"
+        ],
+        "status": "ACTIVE",
+        "revision": "2023",
+        "source_reference": "BIS Demo Repository / Switchgear Division",
+        "document_name": "DEMO_IS_8828_Circuit_Breakers.pdf",
+        "is_demo": true,
+        "created_at": "2020-09-18T00:00:00.000Z",
+        "updated_at": "2023-12-01T00:00:00.000Z",
+        "chunks_count": 1
+      },
+      "relevance_score": 51,
+      "confidence_score": 0.53,
+      "applicability_type": "RELATED",
+      "reason": "**Procurement Review Notice:** This assessment is for procurement review purposes only and is not legally binding compliance.\n\nThe provided standard, DEMO-IS-8828-MCB, is inapplicable to the procurement specification because it governs Miniature Circuit Breakers (MCBs) rather than the LED street luminaires requested. Consequently, the technical requirements for short-circuit breaking capacity and tripping curves defined in the standard do not pertain to the lighting equipment specified.",
+      "reasons_breakdown": [
+        "Technical specifications and performance ratings reflect standard scope.",
+        "Prescribes essential electrical/mechanical safety testing protocols."
+      ],
+      "matched_requirements": [
+        "Product: 50W outdoor LED street luminaires",
+        "Environment: Outdoor",
+        "Application: Smart highway project",
+        "Technical Spec: IP66 ingress protection",
+        "Safety: surge protection 10kV"
+      ],
+      "conditions": [],
+      "evidence": [
+        {
+          "document": "DEMO_IS_8828_Circuit_Breakers.pdf",
+          "section": "3. Rated Breaking Capacity and Tripping Curves",
+          "page": 3,
+          "snippet": "Clause 3.2: Miniature circuit breakers for commercial and industrial procurement shall possess a minimum short-circuit breaking capacity rating (Icn) of 10,000A (10kA) at 240/415V AC. Type C tripping curve (instantaneous tripping between 5 In and 10 In) is mandated for general in..."
+        }
+      ],
+      "score_breakdown": {
+        "semantic": 67,
+        "product": 20,
+        "category": 15,
+        "application": 25,
+        "technical": 100,
+        "safety": 100,
+        "final": 51
+      },
+      "review_status": "PENDING_REVIEW",
+      "created_at": "2026-09-17T01:48:50.742Z"
+    },
+    {
+      "id": "rec-srch-178-std-it-013",
+      "search_id": "srch-1789609730731",
+      "standard_id": "std-it-013",
+      "standard": {
+        "id": "std-it-013",
+        "is_number": "DEMO-IS-13252-ITE",
+        "title": "Sample Standard for Information Technology Equipment - Safety and Electrical Characteristics",
+        "category": "IT Equipment",
+        "scope": "Applicable to mains-powered or battery-powered information technology equipment, including computer terminals, servers, laptops, printers, and network routing appliances.",
+        "description": "Electrical shock protection, insulation clearance distances, fire resistance of plastic enclosures (UL94 V-0 or V-1), thermal runaway prevention for lithium batteries, acoustic noise limits, and energy star efficiency ratings.",
+        "keywords": [
+          "IT equipment",
+          "computers",
+          "laptops",
+          "servers",
+          "electrical safety",
+          "power supply",
+          "information technology",
+          "printers",
+          "network equipment"
+        ],
+        "status": "ACTIVE",
+        "revision": "2020",
+        "source_reference": "BIS Demo Repository / Electronics and IT Department",
+        "document_name": "DEMO_IS_13252_IT_Equipment_Safety.pdf",
+        "is_demo": true,
+        "created_at": "2020-02-19T00:00:00.000Z",
+        "updated_at": "2024-02-01T00:00:00.000Z",
+        "chunks_count": 1
+      },
+      "relevance_score": 50,
+      "confidence_score": 0.53,
+      "applicability_type": "RELATED",
+      "reason": "This is a procurement review and is not legally binding compliance.\n\nThe provided standard, DEMO-IS-13252-ITE, is inapplicable to the procurement of outdoor LED street luminaires because it specifically governs the safety and electrical characteristics of Information Technology Equipment. The requirements for flammability and touch temperature in the evidence snippet pertain to internal power supplies and motherboards, which are not relevant to the functional specifications of outdoor lighting infrastructure.",
+      "reasons_breakdown": [
+        "Technical specifications and performance ratings reflect standard scope.",
+        "Prescribes essential electrical/mechanical safety testing protocols."
+      ],
+      "matched_requirements": [
+        "Product: 50W outdoor LED street luminaires",
+        "Environment: Outdoor",
+        "Application: Smart highway project",
+        "Technical Spec: IP66 ingress protection",
+        "Safety: surge protection 10kV"
+      ],
+      "conditions": [],
+      "evidence": [
+        {
+          "document": "DEMO_IS_13252_IT_Equipment_Safety.pdf",
+          "section": "4. Fire Protection and Plastic Enclosure Flammability",
+          "page": 5,
+          "snippet": "Clause 4.3: External polymeric enclosures and chassis holding internal power supplies and motherboards shall possess a flammability classification of V-0 or V-1. Touch temperature of user-accessible metal panels must not exceed 45°C during continuous 100% operational compute load..."
+        }
+      ],
+      "score_breakdown": {
+        "semantic": 66,
+        "product": 20,
+        "category": 15,
+        "application": 25,
+        "technical": 100,
+        "safety": 100,
+        "final": 50
+      },
+      "review_status": "PENDING_REVIEW",
+      "created_at": "2026-09-17T01:48:50.742Z"
+    },
+    {
+      "id": "rec-srch-178-std-ppe-009",
+      "search_id": "srch-1789609730731",
+      "standard_id": "std-ppe-009",
+      "standard": {
+        "id": "std-ppe-009",
+        "is_number": "DEMO-IS-2925-HLM",
+        "title": "Sample Standard for Industrial Safety Helmets for Head Protection against Impact and Penetration",
+        "category": "PPE",
+        "scope": "Specifies physical and performance requirements, methods of test, and marking requirements for industrial safety helmets.",
+        "description": "Shock absorption testing (transmitted force under 5.0 kN), penetration resistance against 3kg pointed striker, electrical insulation rating (up to 2000V AC), flame resistance, and adjustable non-conductive cradle straps for construction and factory personnel.",
+        "keywords": [
+          "safety helmet",
+          "hard hat",
+          "PPE",
+          "head protection",
+          "industrial safety",
+          "impact resistance",
+          "electrical insulation",
+          "construction PPE"
+        ],
+        "status": "ACTIVE",
+        "revision": "2021",
+        "source_reference": "BIS Demo Repository / Industrial Safety Committee",
+        "document_name": "DEMO_IS_2925_Safety_Helmets.pdf",
+        "is_demo": true,
+        "created_at": "2021-01-08T00:00:00.000Z",
+        "updated_at": "2023-07-30T00:00:00.000Z",
+        "chunks_count": 1
+      },
+      "relevance_score": 49,
+      "confidence_score": 0.52,
+      "applicability_type": "RELATED",
+      "reason": "This standard is recommended because its scope encompasses 50W outdoor LED street luminaires requirements under PPE, addressing mandatory electrical/safety tolerances and environmental specifications.",
+      "reasons_breakdown": [
+        "Technical specifications and performance ratings reflect standard scope.",
+        "Prescribes essential electrical/mechanical safety testing protocols."
+      ],
+      "matched_requirements": [
+        "Product: 50W outdoor LED street luminaires",
+        "Environment: Outdoor",
+        "Application: Smart highway project",
+        "Technical Spec: IP66 ingress protection",
+        "Safety: surge protection 10kV"
+      ],
+      "conditions": [],
+      "evidence": [
+        {
+          "document": "DEMO_IS_2925_Safety_Helmets.pdf",
+          "section": "4. Impact Shock Absorption and Penetration Criteria",
+          "page": 3,
+          "snippet": "Clause 4.2: When subjected to drop impact of 5.0 kg steel striker from 1.0 metre height, the maximum force transmitted to the headform shall not exceed 5.0 kN. The outer shell shall be manufactured from high-density polyethylene (HDPE) or ABS polymer stabilized against ultraviole..."
+        }
+      ],
+      "score_breakdown": {
+        "semantic": 63,
+        "product": 20,
+        "category": 15,
+        "application": 25,
+        "technical": 100,
+        "safety": 100,
+        "final": 49
+      },
+      "review_status": "PENDING_REVIEW",
+      "created_at": "2026-09-17T01:48:50.742Z"
+    },
+    {
+      "id": "rec-srch-178-std-med-016",
+      "search_id": "srch-1789609730731",
+      "standard_id": "std-med-016",
+      "standard": {
+        "id": "std-med-016",
+        "is_number": "DEMO-IS-13450-MED",
+        "title": "Sample Standard for Medical Electrical Equipment - General Requirements for Basic Safety and Essential Performance",
+        "category": "Medical Equipment",
+        "scope": "Applies to basic safety and essential performance of medical electrical equipment used in hospitals, intensive care units, and clinical healthcare environments.",
+        "description": "Patient leakage current thresholds (< 100 µA for BF/CF patient applied parts), defibrillation-proof protection, electromagnetic compatibility (EMC IEC 60601-1-2), dual backup alarms, and biocompatibility of patient-contacting materials.",
+        "keywords": [
+          "medical equipment",
+          "patient safety",
+          "hospital equipment",
+          "electrical safety",
+          "ICU monitors",
+          "biocompatibility",
+          "healthcare"
+        ],
+        "status": "ACTIVE",
+        "revision": "2021",
+        "source_reference": "BIS Demo Repository / Medical Equipment Bureau",
+        "document_name": "DEMO_IS_13450_Medical_Electrical_Safety.pdf",
+        "is_demo": true,
+        "created_at": "2021-05-18T00:00:00.000Z",
+        "updated_at": "2023-10-09T00:00:00.000Z",
+        "chunks_count": 1
+      },
+      "relevance_score": 48,
+      "confidence_score": 0.51,
+      "applicability_type": "RELATED",
+      "reason": "This standard is recommended because its scope encompasses 50W outdoor LED street luminaires requirements under Medical Equipment, addressing mandatory electrical/safety tolerances and environmental specifications.",
+      "reasons_breakdown": [
+        "Technical specifications and performance ratings reflect standard scope.",
+        "Prescribes essential electrical/mechanical safety testing protocols."
+      ],
+      "matched_requirements": [
+        "Product: 50W outdoor LED street luminaires",
+        "Environment: Outdoor",
+        "Application: Smart highway project",
+        "Technical Spec: IP66 ingress protection",
+        "Safety: surge protection 10kV"
+      ],
+      "conditions": [],
+      "evidence": [
+        {
+          "document": "DEMO_IS_13450_Medical_Electrical_Safety.pdf",
+          "section": "8. Protection Against Electrical Hazards to Patients",
+          "page": 7,
+          "snippet": "Clause 8.7: Patient leakage current under single fault conditions for Type CF floating applied parts (e.g. ECG leads, invasive pressure sensors) shall strictly not exceed 50 microamperes (µA) to prevent micro-shock ventricular fibrillation hazards."
+        }
+      ],
+      "score_breakdown": {
+        "semantic": 61,
+        "product": 20,
+        "category": 15,
+        "application": 25,
+        "technical": 100,
+        "safety": 100,
+        "final": 48
+      },
+      "review_status": "PENDING_REVIEW",
+      "created_at": "2026-09-17T01:48:50.742Z"
+    },
+    {
+      "id": "rec-srch-178-std-it-014",
+      "search_id": "srch-1789609669177",
+      "standard_id": "std-it-014",
+      "standard": {
+        "id": "std-it-014",
+        "is_number": "DEMO-IS-16242-UPS",
+        "title": "Sample Standard for Uninterruptible Power Supply (UPS) Systems for Data Centers & Mission Critical IT",
+        "category": "IT Equipment",
+        "scope": "Requirements for electronic uninterruptible power systems (UPS) designed to supply electrical AC power with low harmonic distortion to sensitive telecommunications and computing systems.",
+        "description": "Online double-conversion topology, true sine wave output (<3% THD on linear loads), bypass synchronization, battery management protocols (VRLA/Lithium), overall efficiency > 94%, and galvanic isolation criteria.",
+        "keywords": [
+          "UPS",
+          "uninterruptible power supply",
+          "power backup",
+          "data center",
+          "double conversion",
+          "battery backup",
+          "voltage regulation"
+        ],
+        "status": "ACTIVE",
+        "revision": "2023",
+        "source_reference": "BIS Demo Repository / Power Electronics Bureau",
+        "document_name": "DEMO_IS_16242_UPS_Systems.pdf",
+        "is_demo": true,
+        "created_at": "2021-12-05T00:00:00.000Z",
+        "updated_at": "2023-09-14T00:00:00.000Z",
+        "chunks_count": 1
+      },
+      "relevance_score": 44,
+      "confidence_score": 0.47,
+      "applicability_type": "RELATED",
+      "reason": "This standard is recommended because its scope encompasses LED Street Lighting System requirements under IT Equipment, addressing mandatory electrical/safety tolerances and environmental specifications.",
+      "reasons_breakdown": [
+        "General contextual similarity identified within BIS standards registry."
+      ],
+      "matched_requirements": [
+        "Product: LED Street Lighting System",
+        "Environment: Outdoor / Exterior Environmental Exposure",
+        "Application: Public Roadway and Street Lighting",
+        "Technical Spec: Ingress protection rating verified",
+        "Technical Spec: Nominal rating: 50W",
+        "Safety: High-voltage surge protection (minimum 10kV)"
+      ],
+      "conditions": [],
+      "evidence": [
+        {
+          "document": "DEMO_IS_16242_UPS_Systems.pdf",
+          "section": "3. Output Waveform and Dynamic Response",
+          "page": 4,
+          "snippet": "Clause 3.2: Static online double conversion UPS systems must produce pure sine wave output voltage with total harmonic distortion (THDv) not exceeding 3% for linear loads and 5% for non-linear computer power supply loads. Transfer time between mains and inverter mode shall be str..."
+        }
+      ],
+      "score_breakdown": {
+        "semantic": 67,
+        "product": 47,
+        "category": 15,
+        "application": 25,
+        "technical": 20,
+        "safety": 20,
+        "final": 44
+      },
+      "review_status": "PENDING_REVIEW",
+      "created_at": "2026-09-17T01:47:49.210Z"
+    },
+    {
+      "id": "rec-srch-178-std-mec-017",
+      "search_id": "srch-1789609669177",
+      "standard_id": "std-mec-017",
+      "standard": {
+        "id": "std-mec-017",
+        "is_number": "DEMO-IS-1520-PMP",
+        "title": "Sample Standard for Horizontal Centrifugal Water Pumps for Clear, Cold Potable Water Irrigation and Municipal Distribution",
+        "category": "Mechanical Equipment",
+        "scope": "Requirements for single-stage centrifugal pumps for pumping clean water without abrasive suspended solids for municipal waterworks and lift irrigation.",
+        "description": "Pump head, discharge capacity, overall energy efficiency (minimum 72%), cavitation NPSH characteristics, cast iron casing (Grade FG 200), stainless steel impeller (AISI 304), and mechanical seal reliability.",
+        "keywords": [
+          "water pump",
+          "centrifugal pump",
+          "pumping station",
+          "irrigation pump",
+          "municipal water",
+          "hydraulic efficiency",
+          "impeller"
+        ],
+        "status": "ACTIVE",
+        "revision": "2022",
+        "source_reference": "BIS Demo Repository / Fluid Power Committee",
+        "document_name": "DEMO_IS_1520_Centrifugal_Pumps.pdf",
+        "is_demo": true,
+        "created_at": "2020-10-05T00:00:00.000Z",
+        "updated_at": "2023-08-25T00:00:00.000Z",
+        "chunks_count": 1
+      },
+      "relevance_score": 43,
+      "confidence_score": 0.46,
+      "applicability_type": "RELATED",
+      "reason": "This standard is recommended because its scope encompasses LED Street Lighting System requirements under Mechanical Equipment, addressing mandatory electrical/safety tolerances and environmental specifications.",
+      "reasons_breakdown": [
+        "Prescribes essential electrical/mechanical safety testing protocols."
+      ],
+      "matched_requirements": [
+        "Product: LED Street Lighting System",
+        "Environment: Outdoor / Exterior Environmental Exposure",
+        "Application: Public Roadway and Street Lighting",
+        "Technical Spec: Ingress protection rating verified",
+        "Technical Spec: Nominal rating: 50W",
+        "Safety: High-voltage surge protection (minimum 10kV)"
+      ],
+      "conditions": [],
+      "evidence": [
+        {
+          "document": "DEMO_IS_1520_Centrifugal_Pumps.pdf",
+          "section": "4. Hydraulic Performance and Energy Efficiency",
+          "page": 3,
+          "snippet": "Clause 4.2: Pumps supplied under public tenders must achieve BEE 4-star or 5-star minimum overall efficiency rating. Hydrostatic pressure testing of pump casing shall be performed at 1.5 times the maximum shut-off head or 2 times the duty head, whichever is higher, for not less t..."
+        }
+      ],
+      "score_breakdown": {
+        "semantic": 67,
+        "product": 20,
+        "category": 15,
+        "application": 25,
+        "technical": 20,
+        "safety": 100,
+        "final": 43
+      },
+      "review_status": "PENDING_REVIEW",
+      "created_at": "2026-09-17T01:47:49.210Z"
+    },
+    {
+      "id": "rec-srch-178-std-fur-012",
+      "search_id": "srch-1789609669177",
+      "standard_id": "std-fur-012",
+      "standard": {
+        "id": "std-fur-012",
+        "is_number": "DEMO-IS-17632-CHR",
+        "title": "Sample Standard for Adjustable Ergonomic Office Swivel Chairs and Seating Systems",
+        "category": "Furniture",
+        "scope": "Requirements for adjustable office swivel work chairs including stability, durability, seat height adjustment mechanisms, and backrest angle adjustability.",
+        "description": "Class 4 gas-lift cylinder certification, pneumatic height adjustment (420-540 mm), 5-prong nylon/cast aluminum star base, dual-wheel hooded nylon casters, breathable mesh backrest, and 120,000 cycle durability testing.",
+        "keywords": [
+          "office chair",
+          "ergonomic chair",
+          "swivel chair",
+          "gas lift",
+          "mesh backrest",
+          "lumbar support",
+          "seating furniture"
+        ],
+        "status": "ACTIVE",
+        "revision": "2022",
+        "source_reference": "BIS Demo Repository / Seating Equipment Bureau",
+        "document_name": "DEMO_IS_17632_Office_Chairs.pdf",
+        "is_demo": true,
+        "created_at": "2021-07-29T00:00:00.000Z",
+        "updated_at": "2023-06-11T00:00:00.000Z",
+        "chunks_count": 1
+      },
+      "relevance_score": 43,
+      "confidence_score": 0.46,
+      "applicability_type": "RELATED",
+      "reason": "This standard is recommended because its scope encompasses LED Street Lighting System requirements under Furniture, addressing mandatory electrical/safety tolerances and environmental specifications.",
+      "reasons_breakdown": [
+        "General contextual similarity identified within BIS standards registry."
+      ],
+      "matched_requirements": [
+        "Product: LED Street Lighting System",
+        "Environment: Outdoor / Exterior Environmental Exposure",
+        "Application: Public Roadway and Street Lighting",
+        "Technical Spec: Ingress protection rating verified",
+        "Technical Spec: Nominal rating: 50W",
+        "Safety: High-voltage surge protection (minimum 10kV)"
+      ],
+      "conditions": [],
+      "evidence": [
+        {
+          "document": "DEMO_IS_17632_Office_Chairs.pdf",
+          "section": "4. Structural Cycle Testing and Gas Lift Verification",
+          "page": 3,
+          "snippet": "Clause 4.1: Pneumatic gas lift cylinders must conform to DIN 4550 Class 4 or BIFMA X5.1 standards. The chair base must withstand a static compressive proof load of 11.1 kN (1130 kgf) without structural fracture or permanent plastic deformation."
+        }
+      ],
+      "score_breakdown": {
+        "semantic": 65,
+        "product": 47,
+        "category": 15,
+        "application": 25,
+        "technical": 20,
+        "safety": 20,
+        "final": 43
+      },
+      "review_status": "PENDING_REVIEW",
+      "created_at": "2026-09-17T01:47:49.210Z"
+    },
+    {
+      "id": "rec-srch-178-std-fir-015",
+      "search_id": "srch-1789609730731",
+      "standard_id": "std-fir-015",
+      "standard": {
+        "id": "std-fir-015",
+        "is_number": "DEMO-IS-15683-FIR",
+        "title": "Sample Standard for Portable Fire Extinguishers - Performance, Construction, and Pressure Ratings",
+        "category": "Fire Safety",
+        "scope": "Specifies the requirements for portable fire extinguishers of dry chemical powder (ABC class), carbon dioxide (CO2), clean agent, and water/foam types.",
+        "description": "Burst pressure tests (55 bar), discharge duration (>13 seconds for 6kg extinguisher), fire rating ratings (3A/21B minimum), corrosion resistance of internal epoxy coatings, and dual gauge pressure indicator accuracy.",
+        "keywords": [
+          "fire extinguisher",
+          "fire safety",
+          "ABC powder",
+          "CO2 extinguisher",
+          "fire protection",
+          "emergency equipment",
+          "suppression"
+        ],
+        "status": "ACTIVE",
+        "revision": "2022",
+        "source_reference": "BIS Demo Repository / Fire Fighting Division",
+        "document_name": "DEMO_IS_15683_Fire_Extinguishers.pdf",
+        "is_demo": true,
+        "created_at": "2020-08-11T00:00:00.000Z",
+        "updated_at": "2023-11-28T00:00:00.000Z",
+        "chunks_count": 1
+      },
+      "relevance_score": 45,
+      "confidence_score": 0.48,
+      "applicability_type": "RELATED",
+      "reason": "This standard is recommended because its scope encompasses 50W outdoor LED street luminaires requirements under Fire Safety, addressing mandatory electrical/safety tolerances and environmental specifications.",
+      "reasons_breakdown": [
+        "Technical specifications and performance ratings reflect standard scope."
+      ],
+      "matched_requirements": [
+        "Product: 50W outdoor LED street luminaires",
+        "Environment: Outdoor",
+        "Application: Smart highway project",
+        "Technical Spec: IP66 ingress protection",
+        "Safety: surge protection 10kV"
+      ],
+      "conditions": [],
+      "evidence": [
+        {
+          "document": "DEMO_IS_15683_Fire_Extinguishers.pdf",
+          "section": "3. Cylinder Burst Strength and Pressure Rating",
+          "page": 2,
+          "snippet": "Clause 3.1: Stored pressure extinguisher cylinders shall be fabricated from deep-drawn mild steel or seamless aluminum capable of passing hydraulic test pressure at 30 kgf/cm² (3.0 MPa) for 2 minutes without leakage. The external surface shall be electrostatically powder coated S..."
+        }
+      ],
+      "score_breakdown": {
+        "semantic": 64,
+        "product": 20,
+        "category": 15,
+        "application": 25,
+        "technical": 100,
+        "safety": 20,
+        "final": 45
+      },
+      "review_status": "PENDING_REVIEW",
+      "created_at": "2026-09-17T01:48:50.742Z"
+    },
+    {
+      "id": "rec-srch-178-std-sol-002",
+      "search_id": "srch-1789609730731",
+      "standard_id": "std-sol-002",
+      "standard": {
+        "id": "std-sol-002",
+        "is_number": "DEMO-IS-14286-SOL",
+        "title": "Sample Standard for Crystalline Silicon Terrestrial Photovoltaic (PV) Solar Modules",
+        "category": "Solar Equipment",
+        "scope": "Specifies design qualification and type approval of terrestrial crystalline silicon photovoltaic modules suitable for prolonged outdoor operation in tropical and general climates.",
+        "description": "Requirements for mechanical load resistance (5400 Pa snow/wind), hail impact testing, UV weathering exposure, wet leakage current insulation, and hot-spot endurance testing for public solar installations.",
+        "keywords": [
+          "solar",
+          "photovoltaic",
+          "PV module",
+          "renewable energy",
+          "solar panel",
+          "silicon cells",
+          "weatherproof",
+          "outdoor generation"
+        ],
+        "status": "ACTIVE",
+        "revision": "2022",
+        "source_reference": "BIS Demo Repository / Solar Energy Division",
+        "document_name": "DEMO_IS_14286_Solar_PV_Modules.pdf",
+        "is_demo": true,
+        "created_at": "2022-06-20T00:00:00.000Z",
+        "updated_at": "2023-11-15T00:00:00.000Z",
+        "chunks_count": 2
+      },
+      "relevance_score": 45,
+      "confidence_score": 0.48,
+      "applicability_type": "RELATED",
+      "reason": "This standard is recommended because its scope encompasses 50W outdoor LED street luminaires requirements under Solar Equipment, addressing mandatory electrical/safety tolerances and environmental specifications.",
+      "reasons_breakdown": [
+        "General contextual similarity identified within BIS standards registry."
+      ],
+      "matched_requirements": [
+        "Product: 50W outdoor LED street luminaires",
+        "Environment: Outdoor",
+        "Application: Smart highway project",
+        "Technical Spec: IP66 ingress protection",
+        "Safety: surge protection 10kV"
+      ],
+      "conditions": [
+        "Applies specifically for outdoor perimeter, street, or public infrastructure deployment."
+      ],
+      "evidence": [
+        {
+          "document": "DEMO_IS_14286_Solar_PV_Modules.pdf",
+          "section": "3. Technical Qualification Requirements",
+          "page": 3,
+          "snippet": "Clause 3.1: All crystalline silicon modules for government grid-interactive and rooftop deployment must demonstrate compliance with accelerated damp heat testing (85°C / 85% RH for 1000 hours) with degradation of peak power not exceeding 5% of rated standard test condition (STC) ..."
+        },
+        {
+          "document": "DEMO_IS_14286_Solar_PV_Modules.pdf",
+          "section": "6. Mechanical Load and Ingress",
+          "page": 6,
+          "snippet": "Clause 6.4: The front glass shall be tempered high-transmission solar glass with minimum 3.2mm thickness, capable of withstanding dynamic wind loads up to 2400 Pa and heavy snow/static pressure loads up to 5400 Pa without micro-cracking or frame delamination."
+        }
+      ],
+      "score_breakdown": {
+        "semantic": 66,
+        "product": 47,
+        "category": 15,
+        "application": 44,
+        "technical": 20,
+        "safety": 20,
+        "final": 45
+      },
+      "review_status": "PENDING_REVIEW",
+      "created_at": "2026-09-17T01:48:50.742Z"
+    },
+    {
+      "id": "rec-srch-178-std-fur-011",
+      "search_id": "srch-1789609312571",
+      "standard_id": "std-fur-011",
+      "standard": {
+        "id": "std-fur-011",
+        "is_number": "DEMO-IS-3400-FUR",
+        "title": "Sample Standard for Ergonomic Workstation Desks, Tables, and Office Furniture",
+        "category": "Furniture",
+        "scope": "Specifies dimensional requirements, structural strength, stability, and finish durability for office desks, executive tables, and modular institutional workstations.",
+        "description": "Covers edge-banding adhesion, moisture-resistant pre-laminated engineered particleboard/MDF (Grade 1), powder-coated steel understructure, cable management raceways, and static load endurance (100 kg uniform desk load).",
+        "keywords": [
+          "office furniture",
+          "workstation",
+          "desks",
+          "ergonomics",
+          "modular tables",
+          "powder coated steel",
+          "prelaminated board",
+          "office setup"
+        ],
+        "status": "ACTIVE",
+        "revision": "2023",
+        "source_reference": "BIS Demo Repository / Timber and Furniture Section",
+        "document_name": "DEMO_IS_3400_Office_Furniture.pdf",
+        "is_demo": true,
+        "created_at": "2022-03-15T00:00:00.000Z",
+        "updated_at": "2023-11-04T00:00:00.000Z",
+        "chunks_count": 1
+      },
+      "relevance_score": 68,
+      "confidence_score": 0.7,
+      "applicability_type": "POTENTIALLY_APPLICABLE",
+      "reason": "This standard is recommended because its scope encompasses Modular Office Workstation Desks requirements under Furniture, addressing mandatory electrical/safety tolerances and environmental specifications.",
+      "reasons_breakdown": [
+        "Product category and technical description align with Modular Office Workstation Desks.",
+        "Industry discipline matches \"Furniture\" standard portfolio."
+      ],
+      "matched_requirements": [
+        "Product: Modular Office Workstation Desks",
+        "Environment: General Operational Environment",
+        "Application: Emergency Fire Safety and Suppression",
+        "Technical Spec: Compliance with standard manufacturing tolerances and test protocols",
+        "Safety: Flame retardant / low smoke non-hazardous combustion"
+      ],
+      "conditions": [],
+      "evidence": [
+        {
+          "document": "DEMO_IS_3400_Office_Furniture.pdf",
+          "section": "2. Dimensional and Ergonomic Specifications",
+          "page": 2,
+          "snippet": "Clause 2.3: Work surface height shall be 740 ± 10 mm from finished floor level. Minimum knee clearance depth of 450 mm at knee level and 600 mm at foot level must be preserved. Worktop substrate shall be minimum 25mm thick E1 grade exterior prelaminated particle board with 2mm PV..."
+        }
+      ],
+      "score_breakdown": {
+        "semantic": 69,
+        "product": 100,
+        "category": 100,
+        "application": 25,
+        "technical": 20,
+        "safety": 20,
+        "final": 68
+      },
+      "review_status": "PENDING_REVIEW",
+      "created_at": "2026-09-17T01:41:52.590Z"
+    },
+    {
+      "id": "rec-srch-178-std-elec-003",
+      "search_id": "srch-1789609730731",
+      "standard_id": "std-elec-003",
+      "standard": {
+        "id": "std-elec-003",
+        "is_number": "DEMO-IS-694-CAB",
+        "title": "Sample Standard for PVC Insulated Low-Voltage Electrical Cables for Heavy Industrial & Building Wiring",
+        "category": "Electrical Equipment",
+        "scope": "Covers single-core and multi-core unsheathed and sheathed copper/aluminum electrical wires and cables for working voltages up to and including 1100V AC.",
+        "description": "Specifications for oxygen index, flame retardancy (FRLS), insulation resistance, voltage withstand tests, high temperature conductor rating (70°C to 85°C), and copper purity for procurement specifications.",
+        "keywords": [
+          "cable",
+          "wire",
+          "PVC insulation",
+          "FRLS",
+          "copper conductor",
+          "electrical safety",
+          "1100V",
+          "power distribution"
+        ],
+        "status": "ACTIVE",
+        "revision": "2021 (R2)",
+        "source_reference": "BIS Demo Repository / Conductors and Cables Bureau",
+        "document_name": "DEMO_IS_694_Cables_Wiring.pdf",
+        "is_demo": true,
+        "created_at": "2021-04-10T00:00:00.000Z",
+        "updated_at": "2023-08-12T00:00:00.000Z",
+        "chunks_count": 2
+      },
+      "relevance_score": 37,
+      "confidence_score": 0.4,
+      "applicability_type": "LOW_RELEVANCE",
+      "reason": "This standard is recommended because its scope encompasses 50W outdoor LED street luminaires requirements under Electrical Equipment, addressing mandatory electrical/safety tolerances and environmental specifications.",
+      "reasons_breakdown": [
+        "General contextual similarity identified within BIS standards registry."
+      ],
+      "matched_requirements": [
+        "Product: 50W outdoor LED street luminaires",
+        "Environment: Outdoor",
+        "Application: Smart highway project",
+        "Technical Spec: IP66 ingress protection",
+        "Safety: surge protection 10kV"
+      ],
+      "conditions": [],
+      "evidence": [
+        {
+          "document": "DEMO_IS_694_Cables_Wiring.pdf",
+          "section": "2. Conductor Composition & Purity",
+          "page": 1,
+          "snippet": "Clause 2.1: Conductors shall consist of annealed electrolytic grade plain copper wire with minimum electrical conductivity of 99.97% IACS. Solid or stranded conductors shall conform strictly to class 1, class 2, or flexible class 5 dimensional tolerances."
+        },
+        {
+          "document": "DEMO_IS_694_Cables_Wiring.pdf",
+          "section": "5. Flame Retardant Low Smoke (FRLS) Testing",
+          "page": 5,
+          "snippet": "Clause 5.3: For critical infrastructure and public building applications, the outer PVC sheath must exhibit Flame Retardant Low Smoke characteristics: Oxygen Index >= 29%, Temperature Index >= 250°C, and acid gas emission not exceeding 20% by weight during com..."
+        }
+      ],
+      "score_breakdown": {
+        "semantic": 63,
+        "product": 20,
+        "category": 15,
+        "application": 25,
+        "technical": 20,
+        "safety": 20,
+        "final": 37
+      },
+      "review_status": "PENDING_REVIEW",
+      "created_at": "2026-09-17T01:48:50.742Z"
+    },
+    {
+      "id": "rec-srch-178-std-con-006",
+      "search_id": "srch-1789609312571",
+      "standard_id": "std-con-006",
+      "standard": {
+        "id": "std-con-006",
+        "is_number": "DEMO-IS-1786-TMT",
+        "title": "Sample Standard for High Strength Deformed Steel Bars and Wires for Concrete Reinforcement (TMT Bars)",
+        "category": "Construction",
+        "scope": "Requirements for thermo-mechanically treated (TMT) deformed steel bars and wires for use as reinforcement in concrete structures.",
+        "description": "Specifies Fe 500, Fe 500D, and Fe 550D grades with superior ductility, bendability, yield strength, phosphorus/sulfur limits (<0.040%), and seismic resistance performance.",
+        "keywords": [
+          "TMT bars",
+          "steel reinforcement",
+          "deformed bars",
+          "Fe 500D",
+          "civil construction",
+          "structural steel",
+          "rebar",
+          "tensile strength"
+        ],
+        "status": "ACTIVE",
+        "revision": "2022",
+        "source_reference": "BIS Demo Repository / Metallurgical Engineering",
+        "document_name": "DEMO_IS_1786_TMT_Steel_Bars.pdf",
+        "is_demo": true,
+        "created_at": "2021-08-14T00:00:00.000Z",
+        "updated_at": "2023-05-19T00:00:00.000Z",
+        "chunks_count": 1
+      },
+      "relevance_score": 48,
+      "confidence_score": 0.51,
+      "applicability_type": "RELATED",
+      "reason": "This standard is recommended because its scope encompasses Modular Office Workstation Desks requirements under Construction, addressing mandatory electrical/safety tolerances and environmental specifications.",
+      "reasons_breakdown": [
+        "Technical specifications and performance ratings reflect standard scope."
+      ],
+      "matched_requirements": [
+        "Product: Modular Office Workstation Desks",
+        "Environment: General Operational Environment",
+        "Application: Emergency Fire Safety and Suppression",
+        "Technical Spec: Compliance with standard manufacturing tolerances and test protocols",
+        "Safety: Flame retardant / low smoke non-hazardous combustion"
+      ],
+      "conditions": [],
+      "evidence": [
+        {
+          "document": "DEMO_IS_1786_TMT_Steel_Bars.pdf",
+          "section": "4. Mechanical Properties and Ductility",
+          "page": 4,
+          "snippet": "Clause 4.1: Fe 500D grade rebar shall exhibit minimum proof stress (0.2% yield strength) of 500 MPa, minimum tensile strength of 565 MPa (ratio TS/YS >= 1.10), and elongation at break of not less than 16.0% to withstand seismic load reversals without brittle fracture."
+        }
+      ],
+      "score_breakdown": {
+        "semantic": 70,
+        "product": 20,
+        "category": 15,
+        "application": 25,
+        "technical": 100,
+        "safety": 20,
+        "final": 48
+      },
+      "review_status": "PENDING_REVIEW",
+      "created_at": "2026-09-17T01:41:52.590Z"
+    },
+    {
+      "id": "rec-srch-178-std-con-005",
+      "search_id": "srch-1789609730731",
+      "standard_id": "std-con-005",
+      "standard": {
+        "id": "std-con-005",
+        "is_number": "DEMO-IS-456-CON",
+        "title": "Sample Code of Practice for Plain and Reinforced Concrete in Structural Works",
+        "category": "Construction",
+        "scope": "Deals with the general structural use of plain and reinforced concrete in buildings, bridges, foundations, and public infrastructure works.",
+        "description": "Governs concrete mix designs (M20 to M60+), curing periods, water-cement ratios, durability criteria against chemical exposure (sulfate, chloride, sea coast), rebar cover, and tensile reinforcement design.",
+        "keywords": [
+          "concrete",
+          "cement",
+          "civil works",
+          "structural design",
+          "reinforcement",
+          "building construction",
+          "durability",
+          "foundations"
+        ],
+        "status": "ACTIVE",
+        "revision": "2020 (Fourth Revision)",
+        "source_reference": "BIS Demo Repository / Civil Engineering Committee",
+        "document_name": "DEMO_IS_456_Concrete_Practice.pdf",
+        "is_demo": true,
+        "created_at": "2020-03-11T00:00:00.000Z",
+        "updated_at": "2024-01-05T00:00:00.000Z",
+        "chunks_count": 1
+      },
+      "relevance_score": 37,
+      "confidence_score": 0.4,
+      "applicability_type": "LOW_RELEVANCE",
+      "reason": "This standard is recommended because its scope encompasses 50W outdoor LED street luminaires requirements under Construction, addressing mandatory electrical/safety tolerances and environmental specifications.",
+      "reasons_breakdown": [
+        "General contextual similarity identified within BIS standards registry."
+      ],
+      "matched_requirements": [
+        "Product: 50W outdoor LED street luminaires",
+        "Environment: Outdoor",
+        "Application: Smart highway project",
+        "Technical Spec: IP66 ingress protection",
+        "Safety: surge protection 10kV"
+      ],
+      "conditions": [],
+      "evidence": [
+        {
+          "document": "DEMO_IS_456_Concrete_Practice.pdf",
+          "section": "8. Concrete Durability and Environmental Exposure",
+          "page": 14,
+          "snippet": "Clause 8.2: For structures exposed to severe outdoor atmospheric conditions or coastal marine environments, minimum cementitious content of 320 kg/m³ and maximum free water-cement ratio of 0.45 is mandated, with minimum concrete grade of M30 and nominal cover to reinforcement of ..."
+        }
+      ],
+      "score_breakdown": {
+        "semantic": 64,
+        "product": 20,
+        "category": 15,
+        "application": 25,
+        "technical": 20,
+        "safety": 20,
+        "final": 37
+      },
+      "review_status": "PENDING_REVIEW",
+      "created_at": "2026-09-17T01:48:50.742Z"
+    },
+    {
+      "id": "rec-srch-178-std-wat-007",
+      "search_id": "srch-1789609730731",
+      "standard_id": "std-wat-007",
+      "standard": {
+        "id": "std-wat-007",
+        "is_number": "DEMO-IS-4985-PVC",
+        "title": "Sample Standard for Unplasticized PVC (uPVC) Pipes for Potable Water Supplies and Drainage",
+        "category": "Water Equipment",
+        "scope": "Covers requirements for plain and socket-ended uPVC pipes intended for wholesome cold drinking water distribution and agricultural irrigation under pressure.",
+        "description": "Dimensional tolerances, working pressure classes (2.5 kgf/cm² to 10 kgf/cm²), hydrostatic burst testing, toxicity limits for potable conveyance (heavy metal lead leaching < 0.05 mg/L), and impact resistance.",
+        "keywords": [
+          "uPVC pipe",
+          "water supply",
+          "potable water",
+          "plumbing",
+          "pressure pipe",
+          "drainage",
+          "chlorination",
+          "irrigation"
+        ],
+        "status": "ACTIVE",
+        "revision": "2021",
+        "source_reference": "BIS Demo Repository / Water Resources Division",
+        "document_name": "DEMO_IS_4985_uPVC_Water_Pipes.pdf",
+        "is_demo": true,
+        "created_at": "2021-02-17T00:00:00.000Z",
+        "updated_at": "2023-04-12T00:00:00.000Z",
+        "chunks_count": 1
+      },
+      "relevance_score": 37,
+      "confidence_score": 0.4,
+      "applicability_type": "LOW_RELEVANCE",
+      "reason": "This standard is recommended because its scope encompasses 50W outdoor LED street luminaires requirements under Water Equipment, addressing mandatory electrical/safety tolerances and environmental specifications.",
+      "reasons_breakdown": [
+        "General contextual similarity identified within BIS standards registry."
+      ],
+      "matched_requirements": [
+        "Product: 50W outdoor LED street luminaires",
+        "Environment: Outdoor",
+        "Application: Smart highway project",
+        "Technical Spec: IP66 ingress protection",
+        "Safety: surge protection 10kV"
+      ],
+      "conditions": [],
+      "evidence": [
+        {
+          "document": "DEMO_IS_4985_uPVC_Water_Pipes.pdf",
+          "section": "3. Toxicological and Potability Criteria",
+          "page": 3,
+          "snippet": "Clause 3.4: Materials utilized in manufacturing pipes for drinking water distribution must be certified food-grade uPVC, free from toxic lead, cadmium, and arsenic stabilizers. Leachable lead content shall not exceed 0.05 mg/litre when tested in accordance with hydrostatic extrac..."
+        }
+      ],
+      "score_breakdown": {
+        "semantic": 62,
+        "product": 20,
+        "category": 15,
+        "application": 25,
+        "technical": 20,
+        "safety": 20,
+        "final": 37
+      },
+      "review_status": "PENDING_REVIEW",
+      "created_at": "2026-09-17T01:48:50.742Z"
+    }
+  ],
+  "saved_recommendation_ids": [],
+  "config_weights": {
+    "semantic_weight": 0.4,
+    "product_weight": 0.2,
+    "category_weight": 0.15,
+    "application_weight": 0.1,
+    "technical_weight": 0.1,
+    "safety_weight": 0.05,
+    "top_k": 10
+  }
+}
